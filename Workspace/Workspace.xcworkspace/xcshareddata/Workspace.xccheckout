@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>37E11372-3DA8-47CF-AE59-51A2730EDB15</string>
+	<key>IDESourceControlProjectName</key>
+	<string>Workspace</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>E329197D5D799E34E0BF6B08A2D1018D09C45BC0</key>
+		<string>git.assembla.com:bluerocketfuel.client.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>Workspace/Workspace.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>E329197D5D799E34E0BF6B08A2D1018D09C45BC0</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>git.assembla.com:bluerocketfuel.client.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>E329197D5D799E34E0BF6B08A2D1018D09C45BC0</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>E329197D5D799E34E0BF6B08A2D1018D09C45BC0</string>
+			<key>IDESourceControlWCCName</key>
+			<string>bluerocketfuel.client</string>
+		</dict>
+	</array>
+</dict>
+</plist>

@@ -1,0 +1,10 @@
+//
+//  Normal, Production Config
+//
+
+App_CFBundleVersion = Production
+App_webservice_protocol = http
+App_webservice_host = soulsendstaging.herokuapp.com
+App_webservice_port = 80
+App_webservice_token = token
+
