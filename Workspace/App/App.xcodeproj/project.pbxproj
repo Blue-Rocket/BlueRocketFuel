@@ -401,9 +401,9 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		297967C11A6993B700B7408B /* DebugStaging */ = {
+		29D775761A7BD03400FE5FA9 /* DebugStaging */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 297967BE1A69937500B7408B /* AppStaging.xcconfig */;
+			baseConfigurationReference = 297967BD1A69937500B7408B /* App.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
@@ -444,9 +444,9 @@
 			};
 			name = DebugStaging;
 		};
-		297967C21A6993B700B7408B /* DebugStaging */ = {
+		29D775771A7BD03400FE5FA9 /* DebugStaging */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 297967BE1A69937500B7408B /* AppStaging.xcconfig */;
+			baseConfigurationReference = 297967BD1A69937500B7408B /* App.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				FRAMEWORK_SEARCH_PATHS = (
@@ -459,9 +459,9 @@
 			};
 			name = DebugStaging;
 		};
-		297967C31A6993B700B7408B /* DebugStaging */ = {
+		29D775781A7BD03400FE5FA9 /* DebugStaging */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 297967BE1A69937500B7408B /* AppStaging.xcconfig */;
+			baseConfigurationReference = 297967BD1A69937500B7408B /* App.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				FRAMEWORK_SEARCH_PATHS = (
@@ -632,7 +632,7 @@
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				29E2E35B1A683AE50048D0AB /* Debug */,
-				297967C11A6993B700B7408B /* DebugStaging */,
+				29D775761A7BD03400FE5FA9 /* DebugStaging */,
 				29E2E35C1A683AE50048D0AB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
@@ -642,7 +642,7 @@
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				29E2E35E1A683AE50048D0AB /* Debug */,
-				297967C21A6993B700B7408B /* DebugStaging */,
+				29D775771A7BD03400FE5FA9 /* DebugStaging */,
 				29E2E35F1A683AE50048D0AB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
@@ -652,7 +652,7 @@
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				29E2E3611A683AE50048D0AB /* Debug */,
-				297967C31A6993B700B7408B /* DebugStaging */,
+				29D775781A7BD03400FE5FA9 /* DebugStaging */,
 				29E2E3621A683AE50048D0AB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;

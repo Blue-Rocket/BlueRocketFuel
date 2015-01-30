@@ -12,22 +12,34 @@
 	<dict>
 		<key>E329197D5D799E34E0BF6B08A2D1018D09C45BC0</key>
 		<string>git.assembla.com:bluerocketfuel.client.git</string>
+		<key>F9A2AA193E6EBEDD3220D72AE6C766EC1E4D2BC2</key>
+		<string>https://github.com/Blue-Rocket/BlueRocketFuel.git</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
 	<string>Workspace/Workspace.xcworkspace</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
 		<key>E329197D5D799E34E0BF6B08A2D1018D09C45BC0</key>
+		<string>../../../bluerocketfuel.client</string>
+		<key>F9A2AA193E6EBEDD3220D72AE6C766EC1E4D2BC2</key>
 		<string>../..</string>
 	</dict>
 	<key>IDESourceControlProjectURL</key>
-	<string>git.assembla.com:bluerocketfuel.client.git</string>
+	<string>https://github.com/Blue-Rocket/BlueRocketFuel.git</string>
 	<key>IDESourceControlProjectVersion</key>
 	<integer>111</integer>
 	<key>IDESourceControlProjectWCCIdentifier</key>
-	<string>E329197D5D799E34E0BF6B08A2D1018D09C45BC0</string>
+	<string>F9A2AA193E6EBEDD3220D72AE6C766EC1E4D2BC2</string>
 	<key>IDESourceControlProjectWCConfigurations</key>
 	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>F9A2AA193E6EBEDD3220D72AE6C766EC1E4D2BC2</string>
+			<key>IDESourceControlWCCName</key>
+			<string>BlueRocketFuel</string>
+		</dict>
 		<dict>
 			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
 			<string>public.vcs.git</string>
