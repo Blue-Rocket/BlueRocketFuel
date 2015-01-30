@@ -54,3 +54,5 @@ FOUNDATION_EXPORT const unsigned char BlueRocketFuelVersionString[];
 #import <BlueRocketFuel/BRAppUser.h>
 #import <BlueRocketFuel/BROptionsTray.h>
 #import <BlueRocketFuel/UIImage+ImageEffects.h>
+#import <BlueRocketFuel/BRUserWebServiceRequest.h>
+#import <BlueRocketFuel/BRAuthenticatedWebServiceRequest.h>

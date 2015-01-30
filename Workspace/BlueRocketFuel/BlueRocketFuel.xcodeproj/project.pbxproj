@@ -35,9 +35,9 @@
 		29116EA21A70185800E546DF /* BRAppUser.m in Sources */ = {isa = PBXBuildFile; fileRef = 29116EA01A70185800E546DF /* BRAppUser.m */; };
 		29116EAA1A7094A200E546DF /* BRLoginWebServiceRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = 29116EA81A7094A200E546DF /* BRLoginWebServiceRequest.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		29116EAB1A7094A200E546DF /* BRLoginWebServiceRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 29116EA91A7094A200E546DF /* BRLoginWebServiceRequest.m */; };
-		29254B261A78055800978983 /* BRAuthenticatedWebServiceRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = 29254B241A78055800978983 /* BRAuthenticatedWebServiceRequest.h */; };
+		29254B261A78055800978983 /* BRAuthenticatedWebServiceRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = 29254B241A78055800978983 /* BRAuthenticatedWebServiceRequest.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		29254B271A78055800978983 /* BRAuthenticatedWebServiceRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 29254B251A78055800978983 /* BRAuthenticatedWebServiceRequest.m */; };
-		29254B2A1A780A0900978983 /* BRUserWebServiceRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = 29254B281A780A0900978983 /* BRUserWebServiceRequest.h */; };
+		29254B2A1A780A0900978983 /* BRUserWebServiceRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = 29254B281A780A0900978983 /* BRUserWebServiceRequest.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		29254B2B1A780A0900978983 /* BRUserWebServiceRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 29254B291A780A0900978983 /* BRUserWebServiceRequest.m */; };
 		29254B301A780BFC00978983 /* BRProfileViewWebServiceRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = 29254B2E1A780BFC00978983 /* BRProfileViewWebServiceRequest.h */; };
 		29254B311A780BFC00978983 /* BRProfileViewWebServiceRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 29254B2F1A780BFC00978983 /* BRProfileViewWebServiceRequest.m */; };
