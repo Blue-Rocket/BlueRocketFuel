@@ -21,14 +21,14 @@
 		297967BF1A69937500B7408B /* App.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = 297967BD1A69937500B7408B /* App.xcconfig */; };
 		297967C01A69937500B7408B /* AppStaging.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = 297967BE1A69937500B7408B /* AppStaging.xcconfig */; };
 		299B0D1C1A6ED01500A9B28E /* RegisterTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 299B0D1B1A6ED01500A9B28E /* RegisterTableViewController.m */; };
-		29C8C3F21A81206600051F17 /* BlueRocketFuel.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 29C8C3F11A81206600051F17 /* BlueRocketFuel.framework */; };
-		29C8C3F31A81206600051F17 /* BlueRocketFuel.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 29C8C3F11A81206600051F17 /* BlueRocketFuel.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		29E2E3401A683AE50048D0AB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29E2E33F1A683AE50048D0AB /* main.m */; };
 		29E2E3431A683AE50048D0AB /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 29E2E3421A683AE50048D0AB /* AppDelegate.m */; };
 		29E2E3491A683AE50048D0AB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 29E2E3471A683AE50048D0AB /* Main.storyboard */; };
 		29E2E34B1A683AE50048D0AB /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 29E2E34A1A683AE50048D0AB /* Images.xcassets */; };
 		29E2E34E1A683AE50048D0AB /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 29E2E34C1A683AE50048D0AB /* LaunchScreen.xib */; };
 		29E2E35A1A683AE50048D0AB /* AppTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 29E2E3591A683AE50048D0AB /* AppTests.m */; };
+		29EBF2AB1A81C05200460642 /* BlueRocketFuel.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 29EBF2AA1A81C05200460642 /* BlueRocketFuel.framework */; };
+		29EBF2AC1A81C05200460642 /* BlueRocketFuel.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 29EBF2AA1A81C05200460642 /* BlueRocketFuel.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -42,13 +42,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXCopyFilesBuildPhase section */
-		29C8C3F41A81206600051F17 /* Embed Frameworks */ = {
+		29EBF2A91A81BF8300460642 /* Embed Frameworks */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				29C8C3F31A81206600051F17 /* BlueRocketFuel.framework in Embed Frameworks */,
+				29EBF2AC1A81C05200460642 /* BlueRocketFuel.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -81,7 +81,6 @@
 		297967C41A6998A900B7408B /* BlueRocketFuel.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = BlueRocketFuel.framework; path = "../../BlueRocketFuel/build/Debug-iphoneos/BlueRocketFuel.framework"; sourceTree = "<group>"; };
 		299B0D1A1A6ED01500A9B28E /* RegisterTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RegisterTableViewController.h; sourceTree = "<group>"; };
 		299B0D1B1A6ED01500A9B28E /* RegisterTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RegisterTableViewController.m; sourceTree = "<group>"; };
-		29C8C3F11A81206600051F17 /* BlueRocketFuel.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; name = BlueRocketFuel.framework; path = "/Users/shawn/Library/Developer/Xcode/DerivedData/Workspace-bqzzlohfaqvulzcpuefuinajfbfb/Build/Products/Debug-iphoneos/BlueRocketFuel.framework"; sourceTree = "<absolute>"; };
 		29E2E33A1A683AE50048D0AB /* App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = App.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		29E2E33E1A683AE50048D0AB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		29E2E33F1A683AE50048D0AB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -93,6 +92,7 @@
 		29E2E3531A683AE50048D0AB /* AppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		29E2E3581A683AE50048D0AB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		29E2E3591A683AE50048D0AB /* AppTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppTests.m; sourceTree = "<group>"; };
+		29EBF2AA1A81C05200460642 /* BlueRocketFuel.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; name = BlueRocketFuel.framework; path = "/Users/shawn/Library/Developer/Xcode/DerivedData/Workspace-bqzzlohfaqvulzcpuefuinajfbfb/Build/Products/Debug-iphoneos/BlueRocketFuel.framework"; sourceTree = "<absolute>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,7 +100,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				29C8C3F21A81206600051F17 /* BlueRocketFuel.framework in Frameworks */,
+				29EBF2AB1A81C05200460642 /* BlueRocketFuel.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -199,7 +199,7 @@
 		29E2E3311A683AE50048D0AB = {
 			isa = PBXGroup;
 			children = (
-				29C8C3F11A81206600051F17 /* BlueRocketFuel.framework */,
+				29EBF2AA1A81C05200460642 /* BlueRocketFuel.framework */,
 				29E2E33C1A683AE50048D0AB /* App */,
 				297967B81A6988DF00B7408B /* config.json */,
 				297967B91A6988DF00B7408B /* strings.json */,
@@ -271,7 +271,7 @@
 				29E2E3361A683AE50048D0AB /* Sources */,
 				29E2E3371A683AE50048D0AB /* Frameworks */,
 				29E2E3381A683AE50048D0AB /* Resources */,
-				29C8C3F41A81206600051F17 /* Embed Frameworks */,
+				29EBF2A91A81BF8300460642 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -421,7 +421,7 @@
 /* Begin XCBuildConfiguration section */
 		29D775761A7BD03400FE5FA9 /* DebugStaging */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 297967BD1A69937500B7408B /* App.xcconfig */;
+			baseConfigurationReference = 297967BE1A69937500B7408B /* AppStaging.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
@@ -464,12 +464,11 @@
 		};
 		29D775771A7BD03400FE5FA9 /* DebugStaging */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 297967BD1A69937500B7408B /* App.xcconfig */;
+			baseConfigurationReference = 297967BE1A69937500B7408B /* AppStaging.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
-					"$(USER_LIBRARY_DIR)/Developer/Xcode/DerivedData/Workspace-ffbftzhoroohybftayexixaocygn/Build/Products/Debug-iphoneos",
 					"$(USER_LIBRARY_DIR)/Developer/Xcode/DerivedData/Workspace-bqzzlohfaqvulzcpuefuinajfbfb/Build/Products/Debug-iphoneos",
 				);
 				INFOPLIST_FILE = App/Info.plist;
@@ -480,7 +479,7 @@
 		};
 		29D775781A7BD03400FE5FA9 /* DebugStaging */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 297967BD1A69937500B7408B /* App.xcconfig */;
+			baseConfigurationReference = 297967BE1A69937500B7408B /* AppStaging.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				FRAMEWORK_SEARCH_PATHS = (
@@ -585,7 +584,6 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
-					"$(USER_LIBRARY_DIR)/Developer/Xcode/DerivedData/Workspace-ffbftzhoroohybftayexixaocygn/Build/Products/Debug-iphoneos",
 					"$(USER_LIBRARY_DIR)/Developer/Xcode/DerivedData/Workspace-bqzzlohfaqvulzcpuefuinajfbfb/Build/Products/Debug-iphoneos",
 				);
 				INFOPLIST_FILE = App/Info.plist;
@@ -601,7 +599,6 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
-					"$(USER_LIBRARY_DIR)/Developer/Xcode/DerivedData/Workspace-ffbftzhoroohybftayexixaocygn/Build/Products/Debug-iphoneos",
 					"$(USER_LIBRARY_DIR)/Developer/Xcode/DerivedData/Workspace-bqzzlohfaqvulzcpuefuinajfbfb/Build/Products/Debug-iphoneos",
 				);
 				INFOPLIST_FILE = App/Info.plist;

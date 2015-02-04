@@ -461,7 +461,6 @@ static UIActivityIndicatorView *fullScreenSpinner;
         case 404:
             BRErrorLog(@"%@",self.response.JSONDictionary);
             error = [NSError errorWithDomain:NSURLErrorDomain code:self.responseCode userInfo:nil];
-            [self connection:connection didFailWithError:error];
             if (self.appLevelNotificationOptions & BRAppNetworkNotification404NotFound) [BRApp applicationDidEncounter404NotFoundError:error forRequest:self];
             break;
             
