@@ -1,7 +1,7 @@
 //
-//  Created by Shawn McKee on 11/21/13.
+//  Created by Shawn McKee on 2/5/15.
 //
-//  Copyright (c) 2015 Blue Rocket, Inc. All rights reserved.
+//  Copyright (c) 2015 Blue Rocket. All rights reserved.
 //
 //  Permission is hereby granted, free of charge, to any person obtaining a copy
 //  of this software and associated documentation files (the "Software"), to deal
@@ -22,11 +22,11 @@
 //  THE SOFTWARE.
 //
 
-#import <UIKit/UIKit.h>
+#import <Foundation/Foundation.h>
 
-@interface UILabel (BR)
+@interface NSDate (BR)
 
-- (void)setText:(NSString *)text withHTMLFormatting:(NSURL *)htmlURL;
-- (void)boldSubstring:(NSString *)substring;
++ (NSDate*)dateFromJSONString:(NSString*)string;
+- (NSString*)JSONString;
 
 @end

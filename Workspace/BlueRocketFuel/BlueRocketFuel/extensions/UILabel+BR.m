@@ -24,6 +24,7 @@
 
 #import "UILabel+BR.h"
 #import "NSString+BR.h"
+#import "UIFont+BR.h"
 
 @implementation UILabel (BR)
 
@@ -39,6 +40,26 @@
     
     [stringWithHTMLAttributes.mutableString setString:text];
     self.attributedText = stringWithHTMLAttributes;
+}
+
+- (void)boldSubstring:(NSString *)substring {
+    UIFont *regularFont = self.font;
+    UIFont *boldFont = self.font.bold;
+    UIColor *foregroundColor = self.textColor;
+    
+    NSDictionary *attrs = [NSDictionary dictionaryWithObjectsAndKeys:
+                           regularFont, NSFontAttributeName,
+                           foregroundColor, NSForegroundColorAttributeName, nil];
+    NSDictionary *subAttrs = [NSDictionary dictionaryWithObjectsAndKeys:
+                              boldFont, NSFontAttributeName, nil];
+    const NSRange range = [self.text rangeOfString:substring];
+    
+    NSMutableAttributedString *attributedText =
+    [[NSMutableAttributedString alloc] initWithString:self.text
+                                           attributes:attrs];
+    [attributedText setAttributes:subAttrs range:range];
+    
+    [self setAttributedText:attributedText];
 }
 
 @end

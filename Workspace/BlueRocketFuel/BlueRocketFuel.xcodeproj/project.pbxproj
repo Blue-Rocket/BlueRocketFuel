@@ -51,6 +51,10 @@
 		2979679A1A683CE900B7408B /* BRLogging.m in Sources */ = {isa = PBXBuildFile; fileRef = 297967881A683CE900B7408B /* BRLogging.m */; };
 		2979679B1A683CE900B7408B /* BRReachability.h in Headers */ = {isa = PBXBuildFile; fileRef = 297967891A683CE900B7408B /* BRReachability.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		2979679C1A683CE900B7408B /* BRReachability.m in Sources */ = {isa = PBXBuildFile; fileRef = 2979678A1A683CE900B7408B /* BRReachability.m */; };
+		299103F21A83D00300E8D964 /* NSDate+BR.h in Headers */ = {isa = PBXBuildFile; fileRef = 299103EE1A83D00300E8D964 /* NSDate+BR.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		299103F31A83D00300E8D964 /* NSDate+BR.m in Sources */ = {isa = PBXBuildFile; fileRef = 299103EF1A83D00300E8D964 /* NSDate+BR.m */; };
+		299103F41A83D00300E8D964 /* UIFont+BR.h in Headers */ = {isa = PBXBuildFile; fileRef = 299103F01A83D00300E8D964 /* UIFont+BR.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		299103F51A83D00300E8D964 /* UIFont+BR.m in Sources */ = {isa = PBXBuildFile; fileRef = 299103F11A83D00300E8D964 /* UIFont+BR.m */; };
 		299B0D0E1A6EC65900A9B28E /* BRPingWebServiceRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = 299B0D0C1A6EC65900A9B28E /* BRPingWebServiceRequest.h */; };
 		299B0D0F1A6EC65900A9B28E /* BRPingWebServiceRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 299B0D0D1A6EC65900A9B28E /* BRPingWebServiceRequest.m */; };
 		299B0D2C1A6EE75D00A9B28E /* BRFullScreenNotificationView.h in Headers */ = {isa = PBXBuildFile; fileRef = 299B0D251A6EE75D00A9B28E /* BRFullScreenNotificationView.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -124,6 +128,10 @@
 		297967881A683CE900B7408B /* BRLogging.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BRLogging.m; sourceTree = "<group>"; };
 		297967891A683CE900B7408B /* BRReachability.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BRReachability.h; sourceTree = "<group>"; };
 		2979678A1A683CE900B7408B /* BRReachability.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BRReachability.m; sourceTree = "<group>"; };
+		299103EE1A83D00300E8D964 /* NSDate+BR.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDate+BR.h"; sourceTree = "<group>"; };
+		299103EF1A83D00300E8D964 /* NSDate+BR.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDate+BR.m"; sourceTree = "<group>"; };
+		299103F01A83D00300E8D964 /* UIFont+BR.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIFont+BR.h"; sourceTree = "<group>"; };
+		299103F11A83D00300E8D964 /* UIFont+BR.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIFont+BR.m"; sourceTree = "<group>"; };
 		299B0D0C1A6EC65900A9B28E /* BRPingWebServiceRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BRPingWebServiceRequest.h; sourceTree = "<group>"; };
 		299B0D0D1A6EC65900A9B28E /* BRPingWebServiceRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BRPingWebServiceRequest.m; sourceTree = "<group>"; };
 		299B0D251A6EE75D00A9B28E /* BRFullScreenNotificationView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BRFullScreenNotificationView.h; sourceTree = "<group>"; };
@@ -176,6 +184,10 @@
 		29116E4C1A6F454800E546DF /* extensions */ = {
 			isa = PBXGroup;
 			children = (
+				299103EE1A83D00300E8D964 /* NSDate+BR.h */,
+				299103EF1A83D00300E8D964 /* NSDate+BR.m */,
+				299103F01A83D00300E8D964 /* UIFont+BR.h */,
+				299103F11A83D00300E8D964 /* UIFont+BR.m */,
 				29ADE8E11A79B89E00765E92 /* UIImage+ImageEffects.h */,
 				29ADE8E21A79B89E00765E92 /* UIImage+ImageEffects.m */,
 				29116E4D1A6F454800E546DF /* UIBarButtonItem+BR.h */,
@@ -373,6 +385,7 @@
 				29116E671A6F454800E546DF /* UIBarButtonItem+BR.h in Headers */,
 				29254B2A1A780A0900978983 /* BRUserWebServiceRequest.h in Headers */,
 				29116E8F1A6F4B7400E546DF /* UINavigationItem+BR.h in Headers */,
+				299103F21A83D00300E8D964 /* NSDate+BR.h in Headers */,
 				299B0D2C1A6EE75D00A9B28E /* BRFullScreenNotificationView.h in Headers */,
 				299B0D2E1A6EE75D00A9B28E /* BRFullScreeNotificationViewDelegate.h in Headers */,
 				29116EAA1A7094A200E546DF /* BRLoginWebServiceRequest.h in Headers */,
@@ -380,6 +393,7 @@
 				29B7913A1A6D78B200D5F641 /* BRWebServiceRequest.h in Headers */,
 				29B7913C1A6D78B200D5F641 /* BRWebServiceResponse.h in Headers */,
 				29116E731A6F454800E546DF /* UILabel+BR.h in Headers */,
+				299103F41A83D00300E8D964 /* UIFont+BR.h in Headers */,
 				297967971A683CE900B7408B /* BRJSON.h in Headers */,
 				299B0D0E1A6EC65900A9B28E /* BRPingWebServiceRequest.h in Headers */,
 				29254B261A78055800978983 /* BRAuthenticatedWebServiceRequest.h in Headers */,
@@ -503,6 +517,7 @@
 				29116EA21A70185800E546DF /* BRAppUser.m in Sources */,
 				29254B351A780C1100978983 /* BRProfileEditWebServiceRequest.m in Sources */,
 				29116E701A6F454800E546DF /* UIImage+BR.m in Sources */,
+				299103F51A83D00300E8D964 /* UIFont+BR.m in Sources */,
 				2979679A1A683CE900B7408B /* BRLogging.m in Sources */,
 				29116E761A6F454800E546DF /* UISegmentedControl+BR.m in Sources */,
 				29ADE8E41A79B89E00765E92 /* UIImage+ImageEffects.m in Sources */,
@@ -515,6 +530,7 @@
 				29254B311A780BFC00978983 /* BRProfileViewWebServiceRequest.m in Sources */,
 				29B7913D1A6D78B200D5F641 /* BRWebServiceResponse.m in Sources */,
 				29116E9A1A70157200E546DF /* BRRegisterWebServiceRequest.m in Sources */,
+				299103F31A83D00300E8D964 /* NSDate+BR.m in Sources */,
 				29116E881A6F48F900E546DF /* NSDictionary+BR.m in Sources */,
 				29116E901A6F4B7400E546DF /* UINavigationItem+BR.m in Sources */,
 			);

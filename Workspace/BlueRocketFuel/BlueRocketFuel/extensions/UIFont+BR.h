@@ -1,5 +1,5 @@
 //
-//  Created by Shawn McKee on 11/21/13.
+//  Created by Shawn McKee on 2/4/15.
 //
 //  Copyright (c) 2015 Blue Rocket, Inc. All rights reserved.
 //
@@ -24,9 +24,8 @@
 
 #import <UIKit/UIKit.h>
 
-@interface UILabel (BR)
+@interface UIFont (BR)
 
-- (void)setText:(NSString *)text withHTMLFormatting:(NSURL *)htmlURL;
-- (void)boldSubstring:(NSString *)substring;
+- (UIFont *)bold;
 
 @end

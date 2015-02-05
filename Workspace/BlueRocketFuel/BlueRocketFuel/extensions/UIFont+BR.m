@@ -1,5 +1,5 @@
 //
-//  Created by Shawn McKee on 11/21/13.
+//  Created by Shawn McKee on 2/4/15.
 //
 //  Copyright (c) 2015 Blue Rocket, Inc. All rights reserved.
 //
@@ -22,11 +22,27 @@
 //  THE SOFTWARE.
 //
 
-#import <UIKit/UIKit.h>
+#import "UIFont+BR.h"
 
-@interface UILabel (BR)
+@implementation UIFont (BR)
 
-- (void)setText:(NSString *)text withHTMLFormatting:(NSURL *)htmlURL;
-- (void)boldSubstring:(NSString *)substring;
+
+- (UIFont *)bold {
+    UIFont *systemFont = [UIFont systemFontOfSize:self.pointSize];
+    NSString *familyName = [self familyName];
+    
+    if ([familyName isEqualToString:systemFont.familyName]) return [UIFont boldSystemFontOfSize:self.pointSize];
+    
+    NSArray *fontNames = [UIFont fontNamesForFamilyName:familyName];
+    for (NSString *fontName in fontNames)
+    {
+        if ([fontName rangeOfString:@"bold" options:NSCaseInsensitiveSearch].location != NSNotFound)
+        {
+            UIFont *boldFont = [UIFont fontWithName:fontName size:self.pointSize];
+            return boldFont;
+        }
+    }
+    return self;
+}
 
 @end

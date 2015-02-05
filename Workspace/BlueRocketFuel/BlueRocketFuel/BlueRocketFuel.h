@@ -45,6 +45,7 @@ FOUNDATION_EXPORT const unsigned char BlueRocketFuelVersionString[];
 #import <BlueRocketFuel/UIView+BR.h>
 #import <BlueRocketFuel/UIBarButtonItem+BR.h>
 #import <BlueRocketFuel/UIButton+BR.h>
+#import <BlueRocketFuel/UIFont+BR.h>
 #import <BlueRocketFuel/UIImage+BR.h>
 #import <BlueRocketFuel/UILabel+BR.h>
 #import <BlueRocketFuel/UISegmentedControl+BR.h>
@@ -56,3 +57,4 @@ FOUNDATION_EXPORT const unsigned char BlueRocketFuelVersionString[];
 #import <BlueRocketFuel/UIImage+ImageEffects.h>
 #import <BlueRocketFuel/BRUserWebServiceRequest.h>
 #import <BlueRocketFuel/BRAuthenticatedWebServiceRequest.h>
+#import <BlueRocketFuel/NSDate+BR.h>

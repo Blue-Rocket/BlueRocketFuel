@@ -1,7 +1,7 @@
 //
-//  Created by Shawn McKee on 11/21/13.
+//  Created by Shawn McKee on 2/5/15.
 //
-//  Copyright (c) 2015 Blue Rocket, Inc. All rights reserved.
+//  Copyright (c) 2015 Blue Rocket. All rights reserved.
 //
 //  Permission is hereby granted, free of charge, to any person obtaining a copy
 //  of this software and associated documentation files (the "Software"), to deal
@@ -22,11 +22,22 @@
 //  THE SOFTWARE.
 //
 
-#import <UIKit/UIKit.h>
+#import "NSDate+BR.h"
+#import <time.h>
+#import <xlocale.h>
 
-@interface UILabel (BR)
+@implementation NSDate (BR)
 
-- (void)setText:(NSString *)text withHTMLFormatting:(NSURL *)htmlURL;
-- (void)boldSubstring:(NSString *)substring;
++ (NSDate*)dateFromJSONString:(NSString*)string{
+    NSDateFormatter *dateFormatter = [[NSDateFormatter alloc] init];
+    [dateFormatter setDateFormat:@"yyyy-MM-dd'T'HH:mm:ssZ"];
+    return [dateFormatter dateFromString:string];
+}
+
+- (NSString*)JSONString {
+    NSDateFormatter *dateFormatter = [[NSDateFormatter alloc] init];
+    [dateFormatter setDateFormat:@"yyyy-MM-dd'T'HH:mm:ssZ"];
+    return [dateFormatter stringFromDate:self];
+}
 
 @end
