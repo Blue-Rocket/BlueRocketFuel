@@ -30,6 +30,7 @@
 #import "NSDictionary+BR.h"
 #import "BRLogging.h"
 #import "UIImage+ImageEffects.h"
+#import "BRAppUser.h"
 
 //#import "UIImage+ImageEffects.h"
 
@@ -82,6 +83,10 @@ static UIActivityIndicatorView *fullScreenSpinner;
         
         NSString *apiURL = nil;
         NSString *apiPath = [request pathForAPI:api];
+        
+        NSMutableString *mutableAPIPath = [NSMutableString stringWithString:apiPath];
+        [mutableAPIPath replaceOccurrencesOfString:@"{userId}" withString:[NSString stringWithFormat:@"%@",CurrentAppUser.recordId] options:NSLiteralSearch range:NSMakeRange(0,apiPath.length)];
+        apiPath = mutableAPIPath;
 
         NSString *apiMethod = [BRApp.config objectForPath:[NSString stringWithFormat:@"webservice.api.%@.method",api]];
         if (!apiMethod) apiMethod = @"GET";
