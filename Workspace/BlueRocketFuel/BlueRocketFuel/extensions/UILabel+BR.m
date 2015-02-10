@@ -28,7 +28,7 @@
 
 @implementation UILabel (BR)
 
-- (void)awakeFromNib {
+- (void)didMoveToSuperview {
     self.text = [self.text localizedString];
 }
 

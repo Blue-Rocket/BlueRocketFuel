@@ -27,7 +27,7 @@
 
 @implementation UIButton (BR)
 
-- (void)awakeFromNib {
+- (void)didMoveToSuperview {
     [self setTitle:[[self titleForState:UIControlStateNormal] localizedString] forState:UIControlStateNormal];
     [self setTitle:[[self titleForState:UIControlStateHighlighted] localizedString] forState:UIControlStateHighlighted];
     [self setTitle:[[self titleForState:UIControlStateDisabled] localizedString] forState:UIControlStateDisabled];

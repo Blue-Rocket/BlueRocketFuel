@@ -27,7 +27,7 @@
 
 @implementation UISegmentedControl (BR)
 
-- (void)awakeFromNib {
+- (void)didMoveToSuperview {
     for (int i = 0; i < self.numberOfSegments; i++) {
         NSString *title = [self titleForSegmentAtIndex:i];
         title = [title localizedString];

@@ -27,7 +27,7 @@
 
 @implementation UITextField (BR)
 
-- (void)awakeFromNib {
+- (void)didMoveToSuperview {
     self.placeholder = [self.placeholder localizedString];
 }
 
